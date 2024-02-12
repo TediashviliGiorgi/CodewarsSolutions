@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace Summation
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int sum = Solution.summation(8);
+            
+            Console.WriteLine(sum);
+        }
+    }
+}
