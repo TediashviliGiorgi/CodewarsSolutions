@@ -9,7 +9,7 @@ namespace Sol3
 {
     public class Solution
     {
-        public static double loseCompare(double a, double b, double margin = 0)
+        public static double CloseCompare(double a, double b, double margin = 0)
         {
             double result;
             double distance = a - b;
