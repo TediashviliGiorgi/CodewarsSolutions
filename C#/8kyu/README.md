@@ -295,5 +295,39 @@ FUNDAMENTALS MATHEMATICS
 
 Sol17
 -----------------
+Our football team has finished the championship.
+
+Our team's match results are recorded in a collection of strings. 
+Each match is represented by a string in the format "x:y", where x is our team's score and y is our opponents score.
+
+For example: ["3:1", "2:2", "0:1", ...]
+
+Points are awarded for each match as follows:
+
+if x > y: 3 points (win)
+if x < y: 0 points (loss)
+if x = y: 1 point (tie)
+We need to write a function that takes this collection and returns the number of points our team (x)
+got in the championship by the rules given above.
+
+Notes:
+
+our team always plays 10 matches in the championship
+0 <= x <= 4
+0 <= y <= 4
+
+FUNDAMENTALS ARRAYS STRINGS
+
+
 Sol18
 -----------------
+In this simple exercise, you will build a program that takes a value, integer , 
+and returns a list of its multiples up to another value, 
+limit . If limit is a multiple of integer, it should be included as well. 
+There will only ever be positive integers passed into the function, 
+not consisting of 0. The limit will always be higher than the base.
+
+For example, if the parameters passed are (2, 6), the function should return 
+[2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
+
+FUNDAMENTALS ARRAYS
