@@ -331,3 +331,27 @@ For example, if the parameters passed are (2, 6), the function should return
 [2, 4, 6] as 2, 4, and 6 are the multiples of 2 up to 6.
 
 FUNDAMENTALS ARRAYS
+
+Sol 19
+-----------------
+DESCRIPTION:
+Given a non-empty array of integers, return the result of multiplying
+the values together in order. Example:
+
+[1, 2, 3, 4] => 1 * 2 * 3 * 4 = 24
+FUNDAMENTALS ARRAYS
+
+Sol 20
+-----------------
+Imagine you are creating a game where the user 
+has to guess the correct number. But there is a limit
+of how many guesses the user can do.
+
+If the user tries to guess more than the limit, the function should throw an error.
+If the user guess is right it should return true.
+If the user guess is wrong it should return false and lose a life.
+Can you finish the game so all the rules are met?
+
+FUNDAMENTALSOBJECT-ORIENTED PROGRAMMING
+Sol 21
+-----------------
