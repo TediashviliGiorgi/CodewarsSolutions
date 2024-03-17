@@ -352,6 +352,79 @@ If the user guess is right it should return true.
 If the user guess is wrong it should return false and lose a life.
 Can you finish the game so all the rules are met?
 
-FUNDAMENTALSOBJECT-ORIENTED PROGRAMMING
+FUNDAMENTALS OBJECT-ORIENTED PROGRAMMING
+
 Sol 21
+-----------------
+Take an array and remove every second element from the array. 
+Always keep the first element and start removing with the next element.
+
+Example:
+["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
+
+None of the arrays will be empty, so you don't have to worry about that!
+
+LISTS ARRAYS FUNDAMENTALS
+
+
+Sol 22
+-----------------
+Combine strings function
+Create a function named (Combine_names) that accepts two parameters (first and last name). The function should return the full name.
+
+Example:
+
+CombineNames("James", "Stevens")
+returns:
+
+"James Stevens"
+FUNDAMENTALS
+
+Sol 23
+-----------------
+Complete the function that takes a non-negative integer n as input, 
+and returns a list of all the powers of 2 with the exponent ranging from 0 to n ( inclusive ).
+
+Examples
+n = 0  ==> [1]        # [2^0]
+n = 1  ==> [1, 2]     # [2^0, 2^1]
+n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
+MATHEMATICSFUNDAMENTALS
+
+Sol 24
+-----------------
+Given an array of integers.
+
+Return an array, where the first element is the count of positives 
+numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+
+If the input is an empty array or is null, return an empty array.
+
+Example
+For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
+
+FUNDAMENTALS ARRAYS LISTS
+
+Sol 25
+-----------------
+
+Sol 26
+-----------------
+
+Sol 27
+-----------------
+
+Sol 28
+-----------------
+
+Sol 29
+-----------------
+
+Sol 30
+-----------------
+
+Sol 31
+-----------------
+
+Sol 32
 -----------------
