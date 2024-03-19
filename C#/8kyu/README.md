@@ -407,21 +407,120 @@ FUNDAMENTALS ARRAYS LISTS
 
 Sol 25
 -----------------
+DESCRIPTION:
+Implement the function generateRange which takes three arguments (start, stop, step) and returns the range of integers from start to stop (inclusive) in increments of step.
+
+Examples
+(1, 10, 1) -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+(-10, 1, 1) -> [-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1]
+(1, 15, 20) -> [1]
+Note
+start < stop
+step > 0
+ALGORITHMS
 
 Sol 26
 -----------------
+DESCRIPTION:
+Complete the function which takes two arguments and returns all 
+numbers which are divisible by the given divisor. First argument 
+is an array of numbers and the second is the divisor.
+
+Example(Input1, Input2 --> Output)
+[1, 2, 3, 4, 5, 6], 2 --> [2, 4, 6]
+ARRAYS ALGORITHMS
 
 Sol 27
 -----------------
+Create a function close_compare that accepts 3 parameters: a, b, and an optional margin. The function should return whether a is lower than, close to, or higher than b.
+
+Please note the following:
+
+When a is close to b, return 0.
+For this challenge, a is considered "close to" b if margin is greater than or equal to the absolute distance between a and b.
+Otherwise...
+
+When a is less than b, return -1.
+
+When a is greater than b, return 1.
+
+If margin is not given, treat it as if it were zero.
+
+Assume: margin >= 0
+
+Tip: Some languages have a way to make parameters optional.
+
+Example 1
+If a = 3, b = 5, and margin = 3, then close_compare(a, b, margin) should return 0.
+
+This is because a and b are no more than 3 numbers apart.
+
+Example 2
+If a = 3, b = 5, and margin = 0, then close_compare(a, b, margin) should return -1.
+
+This is because the distance between a and b is greater than 0, and a is less than b.
+
+FUNDAMENTALS LOGIC
 
 Sol 28
 -----------------
+I'm new to coding and now I want to get the sum of two arrays... 
+Actually the sum of all their elements. I'll appreciate for your help.
+
+P.S. Each array includes only integer numbers. Output is a number too.
+
+FUNDAMENTALS ARRAYS DEBUGGING
 
 Sol 29
 -----------------
+DESCRIPTION:
+Consider an array/list of sheep where some sheep may be missing from their place. 
+We need a function that counts the number of sheep present in the array (true means present).
+
+For example,
+
+[true,  true,  true,  false,
+  true,  true,  true,  true ,
+  true,  false, true,  false,
+  true,  false, false, true ,
+  true,  true,  true,  true ,
+  false, false, true,  true]
+The correct answer would be 17.
+
+Hint: Don't forget to check for bad values like null/undefined
+
+ARRAYS FUNDAMENTALS
 
 Sol 30
 -----------------
+DESCRIPTION:
+If you've completed this kata already and want a bigger challenge, here's the 3D version
+
+Bob is bored during his physics lessons so he's built himself a toy box to help pass the time. 
+The box is special because it has the ability to change gravity.
+
+There are some columns of toy cubes in the box arranged in a line. 
+The i-th column contains a_i cubes. At first, the gravity in the box is pulling the cubes downwards. 
+When Bob switches the gravity, it begins to pull all the cubes to a certain side of the box, d, 
+which can be either 'L' or 'R' (left or right). Below is an example of what a box of cubes 
+might look like before and after switching gravity.
+
++---+                                       +---+
+|   |                                       |   |
++---+                                       +---+
++---++---+     +---+              +---++---++---+
+|   ||   |     |   |   -->        |   ||   ||   |
++---++---+     +---+              +---++---++---+
++---++---++---++---+         +---++---++---++---+
+|   ||   ||   ||   |         |   ||   ||   ||   |
++---++---++---++---+         +---++---++---++---+
+Given the initial configuration of the cubes in the box, 
+find out how many cubes are in each of the n columns after Bob switches the gravity.
+
+Examples (input -> output:
+* 'R', [3, 2, 1, 2]      ->  [1, 2, 2, 3]
+* 'L', [1, 4, 5, 3, 5 ]  ->  [5, 5, 4, 3, 1]
+PUZZLES ARRAYS
 
 Sol 31
 -----------------
